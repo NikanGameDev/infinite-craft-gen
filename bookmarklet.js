@@ -5,7 +5,8 @@ if (location.href == "https://nikangamedev.github.io/infinite-craft-gen/") {
 }
 if (location.href != "https://neal.fun/infinite-craft/") {
   alert("Please use on infinite craft website!");
-} else {
+} 
+if (location.href == "https://neal.fun/infinite-craft/") {
   const a = document.createElement("button");
   a.innerHTML = "a";
   document.body.append(a);
