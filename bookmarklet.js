@@ -3,3 +3,6 @@ if (location.href == "https://nikangamedev.github.io/infinite-craft-gen/") {
   z.innerHTML = "Success! Bookmarklet works! Go try it on infinite craft now!";
   document.body.append(z);
 }
+if (location.href != "https://neal.fun/infinite-craft") {
+  alert("Please use on infinite craft website!");
+}
