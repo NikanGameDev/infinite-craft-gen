@@ -5,4 +5,5 @@ if (location.href == "https://neal.fun/infinite-craft/") {
     // TODO: Add localStorage features
   })
   document.body.append(a);
+  console.log("Added button")
 }
